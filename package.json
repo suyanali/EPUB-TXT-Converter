@@ -1,0 +1,9 @@
+{
+  "name": "epub-txt-pwa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite --host 0.0.0.0", "build":"vite build", "preview":"vite preview --host 0.0.0.0"},
+  "dependencies": {"jszip":"^3.10.1", "opencc-js":"^1.0.5"},
+  "devDependencies": {"vite":"^6.3.5", "vite-plugin-pwa":"^0.21.2"}
+}
